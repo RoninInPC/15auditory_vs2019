@@ -25,7 +25,6 @@ matrix operator*(matrix One, matrix Two) {
 	}
 	return Ans;
 }
-matrix& operator*=(matrix One, matrix Two) {
-	matrix Ans = One * Two;
-	return Ans;
+matrix operator*=(matrix One, matrix Two) {
+	return operator*(One, Two);
 }
