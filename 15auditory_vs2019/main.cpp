@@ -7,7 +7,7 @@ int main() {
 	matrix Two;
 	Two.ScanM();
 	matrix Ans = One;
-	Ans *=Two;
+	Ans *= Two;
 	Ans.PrintM();
 	return 0;
 }
