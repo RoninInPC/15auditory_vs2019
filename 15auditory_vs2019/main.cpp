@@ -6,7 +6,7 @@ int main() {
 	One.ScanM();
 	matrix Two;
 	Two.ScanM();
-	matrix Ans = One * Two;
+	matrix Ans = One;
 	Ans *= Two;
 	Ans.PrintM();
 	return 0;
