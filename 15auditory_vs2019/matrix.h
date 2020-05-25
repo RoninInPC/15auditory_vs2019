@@ -26,5 +26,5 @@ public:
 		}
 	}
 };
-matrix MultiplicationM(matrix One, matrix Two);
+matrix operator*(matrix One, matrix Two);
 #endif

@@ -1,5 +1,5 @@
 #include"matrix.h"
-matrix MultiplicationM(matrix One, matrix Two) {
+matrix operator*(matrix One, matrix Two) {
 	matrix Ans;
 	if (One.NumCol != Two.NumStr) {
 		Ans.NumCol = 0;
