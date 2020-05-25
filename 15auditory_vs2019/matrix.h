@@ -2,6 +2,8 @@
 #include<random>
 #ifndef H_MATRIX
 #define H_MATRIX
+matrix operator*(matrix One, matrix Two);
+matrix& operator*=(matrix One, matrix Two);
 class matrix {
 public:
 	int** Arr;
@@ -26,6 +28,5 @@ public:
 		}
 	}
 };
-matrix operator*(matrix One, matrix Two);
-matrix& operator*=(matrix One, matrix Two);
+
 #endif
